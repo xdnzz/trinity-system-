@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import { Routes } from "./routes/route"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      Branch Dev
+      <Routes />
     </div>
   )
 }
