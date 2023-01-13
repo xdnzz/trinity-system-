@@ -1,6 +1,6 @@
 export function Home(){
     return (
-        <main>
+        <main className="App text-orange-500">
             Home
         </main>
     )
