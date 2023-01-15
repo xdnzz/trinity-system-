@@ -11,7 +11,6 @@ import { Stakeholders } from "../pages/Stakeholders/Stackholders";
 export function Routes() {
     return (
         <BrowserRouter>
-            <Nav />
             <Header />
             <SingleRoutes>
                 <Route path="/" element={<Home />} />

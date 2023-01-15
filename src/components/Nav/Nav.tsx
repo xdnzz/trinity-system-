@@ -4,17 +4,20 @@ export function Nav() {
   return (
     <nav className="w-full h-12 bg-slate-600">
       <div className="w-full h-full max-w-7xl m-auto flex items-center justify-between text-white">
-        <div><FaBeer /></div>
+        <div><FaBeer/></div>
 
-        <input className="w-96 h-9 rounded-md placeholder:px-4"
-          placeholder="Pesquisar no sistema" />
+        <input
+          className="w-96 h-9 rounded-md placeholder:px-4  text-zinc-800 p-2"
+          placeholder="Pesquisar no sistema"
+          onChange={(e:any)=>console.log(e.target.value)}
+        />
 
         <div className="w-14 flex justify-between">
-          <FaBell/>
-          <FaUserAlt/>
+          <FaBell />
+          <FaUserAlt />
         </div>
 
-      
+
       </div>
     </nav>
   )
