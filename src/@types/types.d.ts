@@ -6,3 +6,8 @@ interface IIssuesPriority {
 interface IHomeFilter {
     name: string;
 }
+
+interface IPriorityTable {
+    results: number;
+
+}
