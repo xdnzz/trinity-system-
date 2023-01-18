@@ -1,6 +1,7 @@
 import { VscListFilter } from "react-icons/vsc";
 import { HomeFilter } from "../../components/HomeFilter/HomeFilter";
 import { IssuesPriority } from "../../components/IssuesPriority/IssuesPriority";
+import { PriorityTable } from "../../components/priorityTable/priorityTable";
 
 
 export function Home() {
@@ -24,6 +25,13 @@ export function Home() {
                 <IssuesPriority issuesAmount={16} issues="Prioridade alta" />
                 <IssuesPriority issuesAmount={6} issues="Prioridade média" />
                 <IssuesPriority issuesAmount={2} issues="Baixa prioridade" />
+            </div>
+
+            <div className="w-10/12">
+                <h1 className="border-b-2 text-2xl font-bold text-slate-600">Matriz de issues</h1>
+
+                <PriorityTable results={0}/>
+                
             </div>
         </div>
     )
