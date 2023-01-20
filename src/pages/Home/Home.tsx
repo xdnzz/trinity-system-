@@ -1,12 +1,17 @@
 import { VscListFilter } from "react-icons/vsc";
 import { HomeFilter } from "../../components/HomeFilter/HomeFilter";
 import { IssuesPriority } from "../../components/IssuesPriority/IssuesPriority";
+import { GlobalModal } from "../../components/Modal/GlobalModal";
 import { PriorityTable } from "../../components/priorityTable/priorityTable";
+import { FiPocket } from "react-icons/fi";
 
 
 export function Home() {
     return (
         <div className="w-full  flex flex-col justify-center items-center">
+            <GlobalModal>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, ab? Veritatis, deleniti neque reprehenderit ullam, sapiente amet error, aliquid soluta necessitatibus voluptatum cum eligendi eius sit odit maiores sunt optio.
+            </GlobalModal>
             <section className="App text-gray-400 w-[68rem] border rounded h-[3.5rem]  flex items-center justify-center ">
                 <VscListFilter size={20} /> <span className="font-bold">Filtros</span>
                 <HomeFilter name="Gerência" />
@@ -30,8 +35,8 @@ export function Home() {
             <div className="w-10/12">
                 <h1 className="border-b-2 text-2xl font-bold text-slate-600">Matriz de issues</h1>
 
-                <PriorityTable results={0}/>
-                
+                <PriorityTable results={0} />
+
             </div>
         </div>
     )
