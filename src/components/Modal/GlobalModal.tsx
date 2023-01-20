@@ -15,7 +15,7 @@ interface IReactChildren {
 const modelProps = {
     isBlocking: false,
     styles: { main: { 
-        minWidth: 650, color: "purple", height: 500 ,
+        minWidth: 650, color: "purple" ,
     } },
 };
 // const dialogContentProps = {
