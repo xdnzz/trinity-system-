@@ -4,14 +4,15 @@ import { IssuesPriority } from "../../components/IssuesPriority/IssuesPriority";
 import { GlobalModal } from "../../components/Modal/GlobalModal";
 import { PriorityTable } from "../../components/priorityTable/priorityTable";
 import { FiPocket } from "react-icons/fi";
-
+import { Modal } from "../../components/Modal/Modal";
 
 export function Home() {
     return (
         <div className="w-full  flex flex-col justify-center items-center">
-            <GlobalModal>
+            {/* <GlobalModal>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, ab? Veritatis, deleniti neque reprehenderit ullam, sapiente amet error, aliquid soluta necessitatibus voluptatum cum eligendi eius sit odit maiores sunt optio.
-            </GlobalModal>
+            </GlobalModal> */}
+            <Modal/>
             <section className="App text-gray-400 w-[68rem] border rounded h-[3.5rem]  flex items-center justify-center ">
                 <VscListFilter size={20} /> <span className="font-bold">Filtros</span>
                 <HomeFilter name="Gerência" />
