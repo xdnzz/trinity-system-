@@ -4,8 +4,8 @@ export function StackholdersOnAlert({stackholderName, medium}: IStackholdersOnAl
 			<h1 className="w-full border-2 text-2xl font-bold">Stackholders em alerta</h1>
 
 			<div className="w-full border-2 flex">
-				<div className="w-40 h-11 border-2">Nome</div>
-				<div className="w-40 h-11 border-2">Média</div>
+				<div className="ml-2 w-64 h-11 border-2">Nome</div>
+				<div className="w-64 h-11 border-2">Média</div>
 				
 			</div>
 
