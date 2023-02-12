@@ -42,7 +42,7 @@ export function Home() {
 
             </div>
 
-            <div className="flex gap-7 p-3 align-center justify-center w-full border-2 border-red-600">
+            <div className="flex gap-7 p-3 align-center justify-center w-full">
                 <IssuesOnAlert issue={"descrição"} priority={"Alta"} score={88.4}/>
 
                 <StackholdersOnAlert stackholderName="Nome" medium={100}/>
