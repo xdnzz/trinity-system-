@@ -1,4 +1,5 @@
 import { FaFilePdf, FaSearch, FaFilter, FaPlus } from "react-icons/fa";
+import { StakeholdersFieldData } from "../../components/StackholdersOnAlert/StakeHoldersFieldData";
 
 export function Stakeholders() {
 	return (
@@ -28,6 +29,8 @@ export function Stakeholders() {
 					
 				</div>
 			</div>
+			<StakeholdersFieldData/>
+
 		</section>
 	)
 }
