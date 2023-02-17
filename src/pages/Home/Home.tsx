@@ -3,11 +3,8 @@ import { HomeFilter } from "../../components/HomeFilter/HomeFilter";
 import { IssuesOnAlert } from "../../components/IssuesOnAlert/IssuesOnAlert";
 import { IssuesPriority } from "../../components/IssuesPriority/IssuesPriority";
 import { PriorityTable } from "../../components/priorityTable/priorityTable";
-<<<<<<< HEAD
-=======
 import { FiPocket } from "react-icons/fi";
 import { Modal } from "../../components/Modal/Modal";import { StackholdersOnAlert } from "../../components/StackholdersOnAlert/StackholdersOnAlert";
->>>>>>> 1b51002da8d70fcbbd5c97189006482e63f988e6
 
 
 export function Home() {
