@@ -9,5 +9,15 @@ interface IHomeFilter {
 
 interface IPriorityTable {
     results: number;
+}
 
+interface IIssuesOnAlert {
+    issue: string;
+    priority: string;
+    score: number;
+}
+
+interface IStackholdersOnAlert {
+    stackholderName: string;
+    medium: number;
 }

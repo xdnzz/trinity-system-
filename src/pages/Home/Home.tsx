@@ -1,7 +1,13 @@
 import { VscListFilter } from "react-icons/vsc";
 import { HomeFilter } from "../../components/HomeFilter/HomeFilter";
+import { IssuesOnAlert } from "../../components/IssuesOnAlert/IssuesOnAlert";
 import { IssuesPriority } from "../../components/IssuesPriority/IssuesPriority";
 import { PriorityTable } from "../../components/priorityTable/priorityTable";
+<<<<<<< HEAD
+=======
+import { FiPocket } from "react-icons/fi";
+import { Modal } from "../../components/Modal/Modal";import { StackholdersOnAlert } from "../../components/StackholdersOnAlert/StackholdersOnAlert";
+>>>>>>> 1b51002da8d70fcbbd5c97189006482e63f988e6
 
 
 export function Home() {
@@ -36,6 +42,12 @@ export function Home() {
 
                 <PriorityTable results={0} />
 
+            </div>
+
+            <div className="flex gap-7 p-3 align-center justify-center w-full">
+                <IssuesOnAlert issue={"descrição"} priority={"Alta"} score={88.4}/>
+
+                <StackholdersOnAlert stackholderName="Nome" medium={100}/>
             </div>
         </div>
     )
