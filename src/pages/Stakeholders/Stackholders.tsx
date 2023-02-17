@@ -10,20 +10,22 @@ export function Stakeholders() {
 					<span className="">Gerar relatório</span>
 				</div>
 			</div>
+
 			<div className="h-14 border flex justify-center items-center">
 				<div className="flex space-x-[400px]">
 					<div className="flex items-center ">
-						<FaSearch className="m-1"/>
+						<FaSearch className="m-1" />
 						<span className="">Busca</span>
-						<input type="text" placeholder="Faça sua busca" className="w-[400px] h-[30px] border outline-none" />
+						<input type="text" placeholder="Faça sua busca" className="w-[400px] h-[30px] p-1 m-1 rounded border outline-none" />
 					</div>
-					<div className="flex space-x-[360px] bg-trinity">
-						<button className="bg-trinity flex p-2 text-cyan-50 items-center rounded-md">
+					<div className="flex space-x-[360px]">
+						<button className="bg-trinity flex p-2 text-cyan-50 items-center rounded">
 							<FaPlus color="#ffff" />
 							Novo Stakeholder
 						</button>
-					
+
 					</div>
+					
 				</div>
 			</div>
 		</section>

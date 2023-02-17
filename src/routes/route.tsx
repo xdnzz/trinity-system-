@@ -10,17 +10,19 @@ import { Normative } from "../pages/Normartive/Normative";
 import { Stakeholders } from "../pages/Stakeholders/Stackholders";
 export function Routes() {
     return (
-        <BrowserRouter>
-            <Header />
-            <SingleRoutes>
-                <Route path="/" element={<Home />} />
-                <Route path="/stackholders" element={<Stakeholders />}/>
-                <Route path="/issues" element={<Issues/>}/>
-                <Route path="/actions" element={<Actions/>}/>
-                <Route path="/demands" element={<Demands/>}/>
-                <Route path="/normative" element={<Normative/>}/>
-                <Route path="/indicators" element={<Indicators/>}/>
-            </SingleRoutes>
-        </BrowserRouter>
+        <div className="flex flex-col items-center">
+            <BrowserRouter>
+                <Header />
+                <SingleRoutes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/stackholders" element={<Stakeholders />} />
+                    <Route path="/issues" element={<Issues />} />
+                    <Route path="/actions" element={<Actions />} />
+                    <Route path="/demands" element={<Demands />} />
+                    <Route path="/normative" element={<Normative />} />
+                    <Route path="/indicators" element={<Indicators />} />
+                </SingleRoutes>
+            </BrowserRouter>
+        </div>
     )
 }
