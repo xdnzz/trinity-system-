@@ -2,7 +2,7 @@ import { FaBeer, FaBell, FaUserAlt } from "react-icons/fa"
 
 export function Nav() {
   return (
-    <nav className="w-full h-20 bg-slate-600 flex">
+    <nav className="w-screen h-20 bg-slate-600 flex">
       <div className="w-full max-w-7xl m-auto flex items-center justify-between text-white">
         <div><FaBeer/></div>
         <input
