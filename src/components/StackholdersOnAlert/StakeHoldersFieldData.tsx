@@ -7,13 +7,16 @@ export function StakeholdersFieldData(){
                     Nome do StakeHolder <CgArrowsExchangeV/>
             </div>
             <div className="w-1/4 flex items-center bg-trinity justify-center text-white">
-                    Nome do StakeHolder <CgArrowsExchangeV/>
+                    Instituição <CgArrowsExchangeV/>
             </div>
             <div className="w-1/4 flex items-center bg-trinity justify-center text-white">
-                    Nome do StakeHolder <CgArrowsExchangeV/>
+                    Cargo <CgArrowsExchangeV/>
             </div>
             <div className="w-1/4 flex items-center bg-trinity justify-center text-white">
-                    Nome do StakeHolder <CgArrowsExchangeV/>
+                   Favorabilidade <CgArrowsExchangeV/>
+            </div>
+            <div className="w-1/4 flex items-center bg-trinity justify-center text-white">
+                   Status <CgArrowsExchangeV/>
             </div>
         </section>
     )
