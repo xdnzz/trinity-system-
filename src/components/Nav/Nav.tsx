@@ -1,4 +1,4 @@
-import { FaBeer, FaBell, FaUserAlt } from "react-icons/fa"
+import { FaBeer, FaBell, FaUserAlt } from "react-icons/fa";
 
 export function Nav() {
   return (
