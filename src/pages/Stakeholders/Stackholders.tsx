@@ -22,7 +22,6 @@ export function Stakeholders() {
 							<FaPlus color="#ffff" />
 							Novo Stakeholder
 						</button>
-					
 					</div>
 				</div>
 			</div>
